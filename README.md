@@ -10,10 +10,10 @@ Please see the Dockerfile for the deps.
 
 Please see the Makefile for usage. 
 
-Build with `make build`
-Start services with `make up`.
-Do all with `make`
-Release with `make release`
+- Build with `make build`
+- Start services with `make up`.
+- Do all with `make`
+- Release with `make release`
 
 ## Specify settings
 
@@ -40,5 +40,3 @@ button.
 ## TODO
 
 These Specify 6 settings probably end up in a properties file somewhere? Perhaps it can be automated.
-
-Add "wait-for-it.sh" to the server so it blocks until it is ready?
